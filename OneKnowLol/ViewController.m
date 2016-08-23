@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TabViewController.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    TabViewController *tabVC = [[TabViewController alloc]init];
+    UIWindow *window = [[[UIApplication sharedApplication]delegate              ]window];
+    window.rootViewController = tabVC;//将选项卡设置成根视图
 }
 
 - (void)didReceiveMemoryWarning {

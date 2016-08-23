@@ -15,6 +15,16 @@
 		6CF022CE1D6C33E80090309F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF022CC1D6C33E80090309F /* LaunchScreen.storyboard */; };
 		6CF022D91D6C33E90090309F /* OneKnowLolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF022D81D6C33E90090309F /* OneKnowLolTests.m */; };
 		6CF022E41D6C33E90090309F /* OneKnowLolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF022E31D6C33E90090309F /* OneKnowLolUITests.m */; };
+		6CF023001D6C43620090309F /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF022FF1D6C43620090309F /* TabViewController.m */; };
+		6CF023031D6C43FB0090309F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF023021D6C43FB0090309F /* OneViewController.m */; };
+		6CF023061D6C44140090309F /* KnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF023051D6C44140090309F /* KnowViewController.m */; };
+		6CF023091D6C44280090309F /* LOLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF023081D6C44280090309F /* LOLViewController.m */; };
+		6CF023121D6C4C760090309F /* tabKnow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0230C1D6C4C760090309F /* tabKnow.png */; };
+		6CF023131D6C4C760090309F /* tabKnowSe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0230D1D6C4C760090309F /* tabKnowSe.png */; };
+		6CF023141D6C4C760090309F /* tabLOL.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0230E1D6C4C760090309F /* tabLOL.png */; };
+		6CF023151D6C4C760090309F /* tabLOLSe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0230F1D6C4C760090309F /* tabLOLSe.png */; };
+		6CF023161D6C4C760090309F /* tabOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023101D6C4C760090309F /* tabOne.png */; };
+		6CF023171D6C4C760090309F /* tabOneSe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023111D6C4C760090309F /* tabOneSe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,20 @@
 		6CF022DF1D6C33E90090309F /* OneKnowLolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneKnowLolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF022E31D6C33E90090309F /* OneKnowLolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneKnowLolUITests.m; sourceTree = "<group>"; };
 		6CF022E51D6C33E90090309F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF022FE1D6C43620090309F /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		6CF022FF1D6C43620090309F /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		6CF023011D6C43FB0090309F /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		6CF023021D6C43FB0090309F /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		6CF023041D6C44140090309F /* KnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowViewController.h; sourceTree = "<group>"; };
+		6CF023051D6C44140090309F /* KnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowViewController.m; sourceTree = "<group>"; };
+		6CF023071D6C44280090309F /* LOLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOLViewController.h; sourceTree = "<group>"; };
+		6CF023081D6C44280090309F /* LOLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOLViewController.m; sourceTree = "<group>"; };
+		6CF0230C1D6C4C760090309F /* tabKnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabKnow.png; sourceTree = "<group>"; };
+		6CF0230D1D6C4C760090309F /* tabKnowSe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabKnowSe.png; sourceTree = "<group>"; };
+		6CF0230E1D6C4C760090309F /* tabLOL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabLOL.png; sourceTree = "<group>"; };
+		6CF0230F1D6C4C760090309F /* tabLOLSe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabLOLSe.png; sourceTree = "<group>"; };
+		6CF023101D6C4C760090309F /* tabOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabOne.png; sourceTree = "<group>"; };
+		6CF023111D6C4C760090309F /* tabOneSe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabOneSe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +125,10 @@
 		6CF022BD1D6C33E80090309F /* OneKnowLol */ = {
 			isa = PBXGroup;
 			children = (
-				6CF022C11D6C33E80090309F /* AppDelegate.h */,
-				6CF022C21D6C33E80090309F /* AppDelegate.m */,
-				6CF022C41D6C33E80090309F /* ViewController.h */,
-				6CF022C51D6C33E80090309F /* ViewController.m */,
-				6CF022C71D6C33E80090309F /* Main.storyboard */,
-				6CF022CA1D6C33E80090309F /* Assets.xcassets */,
-				6CF022CC1D6C33E80090309F /* LaunchScreen.storyboard */,
+				6CF022FD1D6C41040090309F /* Main View */,
+				6CF022F11D6C36240090309F /* One（手记） */,
+				6CF022F21D6C36350090309F /* Know（知乎日报） */,
+				6CF022F31D6C36440090309F /* LOL（联盟查询） */,
 				6CF022CF1D6C33E80090309F /* Info.plist */,
 				6CF022BE1D6C33E80090309F /* Supporting Files */,
 			);
@@ -117,6 +138,7 @@
 		6CF022BE1D6C33E80090309F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CF0230A1D6C4C760090309F /* Icon（图标方案） */,
 				6CF022BF1D6C33E80090309F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +160,142 @@
 				6CF022E51D6C33E90090309F /* Info.plist */,
 			);
 			path = OneKnowLolUITests;
+			sourceTree = "<group>";
+		};
+		6CF022F11D6C36240090309F /* One（手记） */ = {
+			isa = PBXGroup;
+			children = (
+				6CF022F41D6C36E50090309F /* OneController */,
+				6CF022F51D6C36E50090309F /* OneModel */,
+				6CF022F61D6C36E50090309F /* OneView */,
+			);
+			path = "One（手记）";
+			sourceTree = "<group>";
+		};
+		6CF022F21D6C36350090309F /* Know（知乎日报） */ = {
+			isa = PBXGroup;
+			children = (
+				6CF022F71D6C37320090309F /* KnowController */,
+				6CF022F81D6C37320090309F /* KnowModel */,
+				6CF022F91D6C37320090309F /* KnowView */,
+			);
+			path = "Know（知乎日报）";
+			sourceTree = "<group>";
+		};
+		6CF022F31D6C36440090309F /* LOL（联盟查询） */ = {
+			isa = PBXGroup;
+			children = (
+				6CF022FA1D6C376A0090309F /* LOLController */,
+				6CF022FB1D6C376A0090309F /* LOLModel */,
+				6CF022FC1D6C376A0090309F /* LOLView */,
+			);
+			path = "LOL（联盟查询）";
+			sourceTree = "<group>";
+		};
+		6CF022F41D6C36E50090309F /* OneController */ = {
+			isa = PBXGroup;
+			children = (
+				6CF023011D6C43FB0090309F /* OneViewController.h */,
+				6CF023021D6C43FB0090309F /* OneViewController.m */,
+			);
+			path = OneController;
+			sourceTree = "<group>";
+		};
+		6CF022F51D6C36E50090309F /* OneModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OneModel;
+			sourceTree = "<group>";
+		};
+		6CF022F61D6C36E50090309F /* OneView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OneView;
+			sourceTree = "<group>";
+		};
+		6CF022F71D6C37320090309F /* KnowController */ = {
+			isa = PBXGroup;
+			children = (
+				6CF023041D6C44140090309F /* KnowViewController.h */,
+				6CF023051D6C44140090309F /* KnowViewController.m */,
+			);
+			path = KnowController;
+			sourceTree = "<group>";
+		};
+		6CF022F81D6C37320090309F /* KnowModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KnowModel;
+			sourceTree = "<group>";
+		};
+		6CF022F91D6C37320090309F /* KnowView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KnowView;
+			sourceTree = "<group>";
+		};
+		6CF022FA1D6C376A0090309F /* LOLController */ = {
+			isa = PBXGroup;
+			children = (
+				6CF023071D6C44280090309F /* LOLViewController.h */,
+				6CF023081D6C44280090309F /* LOLViewController.m */,
+			);
+			path = LOLController;
+			sourceTree = "<group>";
+		};
+		6CF022FB1D6C376A0090309F /* LOLModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LOLModel;
+			sourceTree = "<group>";
+		};
+		6CF022FC1D6C376A0090309F /* LOLView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LOLView;
+			sourceTree = "<group>";
+		};
+		6CF022FD1D6C41040090309F /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				6CF022C11D6C33E80090309F /* AppDelegate.h */,
+				6CF022C21D6C33E80090309F /* AppDelegate.m */,
+				6CF022C41D6C33E80090309F /* ViewController.h */,
+				6CF022C51D6C33E80090309F /* ViewController.m */,
+				6CF022C71D6C33E80090309F /* Main.storyboard */,
+				6CF022CA1D6C33E80090309F /* Assets.xcassets */,
+				6CF022CC1D6C33E80090309F /* LaunchScreen.storyboard */,
+				6CF022FE1D6C43620090309F /* TabViewController.h */,
+				6CF022FF1D6C43620090309F /* TabViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		6CF0230A1D6C4C760090309F /* Icon（图标方案） */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0230B1D6C4C760090309F /* tabIcon */,
+			);
+			path = "Icon（图标方案）";
+			sourceTree = "<group>";
+		};
+		6CF0230B1D6C4C760090309F /* tabIcon */ = {
+			isa = PBXGroup;
+			children = (
+				6CF0230C1D6C4C760090309F /* tabKnow.png */,
+				6CF0230D1D6C4C760090309F /* tabKnowSe.png */,
+				6CF0230E1D6C4C760090309F /* tabLOL.png */,
+				6CF0230F1D6C4C760090309F /* tabLOLSe.png */,
+				6CF023101D6C4C760090309F /* tabOne.png */,
+				6CF023111D6C4C760090309F /* tabOneSe.png */,
+			);
+			path = tabIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +401,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF023121D6C4C760090309F /* tabKnow.png in Resources */,
+				6CF023151D6C4C760090309F /* tabLOLSe.png in Resources */,
 				6CF022CE1D6C33E80090309F /* LaunchScreen.storyboard in Resources */,
+				6CF023171D6C4C760090309F /* tabOneSe.png in Resources */,
 				6CF022CB1D6C33E80090309F /* Assets.xcassets in Resources */,
+				6CF023141D6C4C760090309F /* tabLOL.png in Resources */,
+				6CF023131D6C4C760090309F /* tabKnowSe.png in Resources */,
+				6CF023161D6C4C760090309F /* tabOne.png in Resources */,
 				6CF022C91D6C33E80090309F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +434,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF023001D6C43620090309F /* TabViewController.m in Sources */,
+				6CF023031D6C43FB0090309F /* OneViewController.m in Sources */,
 				6CF022C61D6C33E80090309F /* ViewController.m in Sources */,
 				6CF022C31D6C33E80090309F /* AppDelegate.m in Sources */,
+				6CF023091D6C44280090309F /* LOLViewController.m in Sources */,
 				6CF022C01D6C33E80090309F /* main.m in Sources */,
+				6CF023061D6C44140090309F /* KnowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
