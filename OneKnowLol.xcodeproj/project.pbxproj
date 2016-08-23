@@ -25,6 +25,7 @@
 		6CF023151D6C4C760090309F /* tabLOLSe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF0230F1D6C4C760090309F /* tabLOLSe.png */; };
 		6CF023161D6C4C760090309F /* tabOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023101D6C4C760090309F /* tabOne.png */; };
 		6CF023171D6C4C760090309F /* tabOneSe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023111D6C4C760090309F /* tabOneSe.png */; };
+		6CF023191D6CB3210090309F /* 启动图片方案1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023181D6CB3210090309F /* 启动图片方案1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		6CF0230F1D6C4C760090309F /* tabLOLSe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabLOLSe.png; sourceTree = "<group>"; };
 		6CF023101D6C4C760090309F /* tabOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabOne.png; sourceTree = "<group>"; };
 		6CF023111D6C4C760090309F /* tabOneSe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabOneSe.png; sourceTree = "<group>"; };
+		6CF023181D6CB3210090309F /* 启动图片方案1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启动图片方案1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		6CF022BE1D6C33E80090309F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CF023181D6CB3210090309F /* 启动图片方案1.png */,
 				6CF0230A1D6C4C760090309F /* Icon（图标方案） */,
 				6CF022BF1D6C33E80090309F /* main.m */,
 			);
@@ -405,6 +408,7 @@
 				6CF023151D6C4C760090309F /* tabLOLSe.png in Resources */,
 				6CF022CE1D6C33E80090309F /* LaunchScreen.storyboard in Resources */,
 				6CF023171D6C4C760090309F /* tabOneSe.png in Resources */,
+				6CF023191D6CB3210090309F /* 启动图片方案1.png in Resources */,
 				6CF022CB1D6C33E80090309F /* Assets.xcassets in Resources */,
 				6CF023141D6C4C760090309F /* tabLOL.png in Resources */,
 				6CF023131D6C4C760090309F /* tabKnowSe.png in Resources */,
