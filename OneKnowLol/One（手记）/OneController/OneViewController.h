@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OneViewBody.h"
 
 @interface OneViewController : UIViewController
 

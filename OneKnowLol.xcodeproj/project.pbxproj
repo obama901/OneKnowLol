@@ -28,6 +28,8 @@
 		6CF023161D6C4C760090309F /* tabOne.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023101D6C4C760090309F /* tabOne.png */; };
 		6CF023171D6C4C760090309F /* tabOneSe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023111D6C4C760090309F /* tabOneSe.png */; };
 		6CF023191D6CB3210090309F /* 启动图片方案1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF023181D6CB3210090309F /* 启动图片方案1.png */; };
+		6CFA04081D7ACA32007EB923 /* OneViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA04071D7ACA32007EB923 /* OneViewEngine.m */; };
+		6CFA040C1D7AE94D007EB923 /* OneViewBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA040B1D7AE94D007EB923 /* OneViewBody.m */; };
 		D76DEE74037BB1F2D2EC6653 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E93A62662607FCA938B0E2F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +84,11 @@
 		6CF023101D6C4C760090309F /* tabOne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabOne.png; sourceTree = "<group>"; };
 		6CF023111D6C4C760090309F /* tabOneSe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabOneSe.png; sourceTree = "<group>"; };
 		6CF023181D6CB3210090309F /* 启动图片方案1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启动图片方案1.png"; sourceTree = "<group>"; };
+		6CFA04061D7ACA31007EB923 /* OneViewEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewEngine.h; sourceTree = "<group>"; };
+		6CFA04071D7ACA32007EB923 /* OneViewEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewEngine.m; sourceTree = "<group>"; };
+		6CFA04091D7ACBD4007EB923 /* HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		6CFA040A1D7AE94D007EB923 /* OneViewBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewBody.h; sourceTree = "<group>"; };
+		6CFA040B1D7AE94D007EB923 /* OneViewBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewBody.m; sourceTree = "<group>"; };
 		CAC1E36FBECDC14F56029CD2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E4483E5CCB03B32DB00A9108 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E93A62662607FCA938B0E2F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +234,10 @@
 		6CF022F51D6C36E50090309F /* OneModel */ = {
 			isa = PBXGroup;
 			children = (
+				6CFA04061D7ACA31007EB923 /* OneViewEngine.h */,
+				6CFA04071D7ACA32007EB923 /* OneViewEngine.m */,
+				6CFA040A1D7AE94D007EB923 /* OneViewBody.h */,
+				6CFA040B1D7AE94D007EB923 /* OneViewBody.m */,
 			);
 			path = OneModel;
 			sourceTree = "<group>";
@@ -296,6 +307,7 @@
 				6CF022CC1D6C33E80090309F /* LaunchScreen.storyboard */,
 				6CF022FE1D6C43620090309F /* TabViewController.h */,
 				6CF022FF1D6C43620090309F /* TabViewController.m */,
+				6CFA04091D7ACBD4007EB923 /* HeaderFile.h */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -526,6 +538,8 @@
 				6CF022C61D6C33E80090309F /* ViewController.m in Sources */,
 				6CF022C31D6C33E80090309F /* AppDelegate.m in Sources */,
 				6CF023091D6C44280090309F /* LOLViewController.m in Sources */,
+				6CFA04081D7ACA32007EB923 /* OneViewEngine.m in Sources */,
+				6CFA040C1D7AE94D007EB923 /* OneViewBody.m in Sources */,
 				6CF022C01D6C33E80090309F /* main.m in Sources */,
 				6CF023061D6C44140090309F /* KnowViewController.m in Sources */,
 			);
