@@ -19,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    [[UITabBar appearance]setBackgroundColor:[UIColor blueColor]];
     [self joinTabViewController];
+    
 }
 #pragma mark --把创建的ViewController加入Tabbar之中--
 - (void)joinTabViewController

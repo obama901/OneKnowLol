@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C014F181D6D923400A14F7E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C014F171D6D923400A14F7E /* Podfile */; };
+		6C0670AA1D7DC0E900992F36 /* OneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0670A91D7DC0E900992F36 /* OneTableViewCell.m */; };
 		6C0C03551D6D5E62009EEBDF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0C03541D6D5E62009EEBDF /* Icon.png */; };
 		6CF022C01D6C33E80090309F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF022BF1D6C33E80090309F /* main.m */; };
 		6CF022C31D6C33E80090309F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF022C21D6C33E80090309F /* AppDelegate.m */; };
@@ -52,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		6C014F171D6D923400A14F7E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C0670A81D7DC0E900992F36 /* OneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTableViewCell.h; sourceTree = "<group>"; };
+		6C0670A91D7DC0E900992F36 /* OneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTableViewCell.m; sourceTree = "<group>"; };
 		6C0C03541D6D5E62009EEBDF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		6CF022BB1D6C33E80090309F /* OneKnowLol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneKnowLol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF022BF1D6C33E80090309F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -245,6 +248,8 @@
 		6CF022F61D6C36E50090309F /* OneView */ = {
 			isa = PBXGroup;
 			children = (
+				6C0670A81D7DC0E900992F36 /* OneTableViewCell.h */,
+				6C0670A91D7DC0E900992F36 /* OneTableViewCell.m */,
 			);
 			path = OneView;
 			sourceTree = "<group>";
@@ -541,6 +546,7 @@
 				6CFA04081D7ACA32007EB923 /* OneViewEngine.m in Sources */,
 				6CFA040C1D7AE94D007EB923 /* OneViewBody.m in Sources */,
 				6CF022C01D6C33E80090309F /* main.m in Sources */,
+				6C0670AA1D7DC0E900992F36 /* OneTableViewCell.m in Sources */,
 				6CF023061D6C44140090309F /* KnowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

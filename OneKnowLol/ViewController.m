@@ -19,6 +19,7 @@
     [super viewDidLoad];
     TabViewController *tabVC = [[TabViewController alloc]init];
     UIWindow *window = [[[UIApplication sharedApplication]delegate              ]window];
+    
     window.rootViewController = tabVC;//将选项卡设置成根视图
 }
 
