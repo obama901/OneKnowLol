@@ -41,7 +41,7 @@
     string = [string stringByReplacingOccurrencesOfString:@");}" withString:@","];
     string = [string stringByReplacingOccurrencesOfString:@"function oneimga(){document.write(" withString:@"\"imgSource\":"];
     string = [string stringByReplacingOccurrencesOfString:@"function oneword(){document.write(" withString:@"\"noteContext\":"];
-    
+    string = [string stringByReplacingOccurrencesOfString:@"<br>" withString:@"&"];
     return string;
 }
 

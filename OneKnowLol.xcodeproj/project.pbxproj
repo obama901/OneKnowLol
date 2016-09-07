@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0004661D805BBA00C880B6 /* PlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0004651D805BBA00C880B6 /* PlaceHolder.png */; };
+		6C0004681D80667B00C880B6 /* TableBackgound.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0004671D80667B00C880B6 /* TableBackgound.png */; };
+		6C00046A1D806C5500C880B6 /* 楷体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C0004691D806C5500C880B6 /* 楷体.ttf */; };
 		6C014F181D6D923400A14F7E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C014F171D6D923400A14F7E /* Podfile */; };
 		6C0670AA1D7DC0E900992F36 /* OneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0670A91D7DC0E900992F36 /* OneTableViewCell.m */; };
 		6C0C03551D6D5E62009EEBDF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C0C03541D6D5E62009EEBDF /* Icon.png */; };
@@ -52,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C0004651D805BBA00C880B6 /* PlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceHolder.png; sourceTree = "<group>"; };
+		6C0004671D80667B00C880B6 /* TableBackgound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableBackgound.png; sourceTree = "<group>"; };
+		6C0004691D806C5500C880B6 /* 楷体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "楷体.ttf"; sourceTree = "<group>"; };
 		6C014F171D6D923400A14F7E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		6C0670A81D7DC0E900992F36 /* OneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTableViewCell.h; sourceTree = "<group>"; };
 		6C0670A91D7DC0E900992F36 /* OneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTableViewCell.m; sourceTree = "<group>"; };
@@ -171,7 +177,10 @@
 			isa = PBXGroup;
 			children = (
 				6CF023181D6CB3210090309F /* 启动图片方案1.png */,
+				6C0004651D805BBA00C880B6 /* PlaceHolder.png */,
+				6C0004671D80667B00C880B6 /* TableBackgound.png */,
 				6CF0230A1D6C4C760090309F /* Icon（图标方案） */,
+				6C0004691D806C5500C880B6 /* 楷体.ttf */,
 				6CF022BF1D6C33E80090309F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -457,12 +466,15 @@
 				6CF023121D6C4C760090309F /* tabKnow.png in Resources */,
 				6CF023151D6C4C760090309F /* tabLOLSe.png in Resources */,
 				6C0C03551D6D5E62009EEBDF /* Icon.png in Resources */,
+				6C0004681D80667B00C880B6 /* TableBackgound.png in Resources */,
 				6CF022CE1D6C33E80090309F /* LaunchScreen.storyboard in Resources */,
 				6CF023171D6C4C760090309F /* tabOneSe.png in Resources */,
 				6CF023191D6CB3210090309F /* 启动图片方案1.png in Resources */,
 				6C014F181D6D923400A14F7E /* Podfile in Resources */,
 				6CF022CB1D6C33E80090309F /* Assets.xcassets in Resources */,
 				6CF023141D6C4C760090309F /* tabLOL.png in Resources */,
+				6C00046A1D806C5500C880B6 /* 楷体.ttf in Resources */,
+				6C0004661D805BBA00C880B6 /* PlaceHolder.png in Resources */,
 				6CF023131D6C4C760090309F /* tabKnowSe.png in Resources */,
 				6CF023161D6C4C760090309F /* tabOne.png in Resources */,
 				6CF022C91D6C33E80090309F /* Main.storyboard in Resources */,

@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithRed:106/255.0 green:202/255.0 blue:246/255.0 alpha:1];
+    self.automaticallyAdjustsScrollViewInsets = NO;
     [OneViewEngine getOneViewNoteWithComplentBlock:^(OneViewBody *noteBody)
      {
          _viewBody = noteBody;
@@ -37,9 +39,8 @@
     _oneTable.dataSource = self;
     _oneTable.delegate = self;
     [self.view addSubview:_oneTable];
-    _oneTable.backgroundColor = [UIColor redColor];
-    
-    
+//    _oneTable.backgroundColor = [UIColor colorWithRed:106/255.0 green:202/255.0 blue:246/255.0 alpha:1];    
+    [_oneTable setBackgroundView:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"TableBackgound.png"]]];
 }
 #pragma mark --返回一个区中有多少单元格--
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -59,6 +60,7 @@
     {
         cell = [[OneTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell._dateNum.text = _viewBody.volNum;
     cell._imgSource.text = _viewBody.imgSource;
     cell._context.text = _viewBody.noteContext;
