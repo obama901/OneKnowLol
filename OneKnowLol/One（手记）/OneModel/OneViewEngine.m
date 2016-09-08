@@ -10,7 +10,7 @@
 
 
 @implementation OneViewEngine
-
+#pragma mark --请求一个的手记数据--
 + (void)getOneViewNoteWithComplentBlock:(void (^)(OneViewBody *))complentBlock
 {
     NSString *strUrl = ONE_VIEW;
@@ -29,12 +29,12 @@
         NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:jsonData                                                         options:NSJSONReadingMutableContainers                                                              error:&err];
         NSLog(@"dic==%@",jsonDic);
         [oneBody setValuesForKeysWithDictionary:jsonDic];
-        NSLog(@"期数是：%@",oneBody.volNum);
         complentBlock(oneBody);
     } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
         NSLog(@"error==%@",error);
     }];
 }
+#pragma mark --将获取到的字符串中的一些字符替换--
 + (NSString *)toGetRealDataForStringWithStr:(NSString *)string
 {
     string = [string stringByReplacingOccurrencesOfString:@"function onetitle(){document.write(" withString:@"{\"volNum\":"];
