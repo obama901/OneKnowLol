@@ -11,4 +11,10 @@
 
 @interface OneViewController : UIViewController
 
+{
+    OneViewBody *_viewBody;
+    UITableView *_oneTable;
+    CGFloat cellHight;//单元格的动态高度
+    UIImageView *_cellImg;
+}
 @end

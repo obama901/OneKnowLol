@@ -10,6 +10,7 @@
 
 
 @implementation OneViewEngine
+
 #pragma mark --请求一个的手记数据--
 + (void)getOneViewNoteWithComplentBlock:(void (^)(OneViewBody *))complentBlock
 {
@@ -22,17 +23,20 @@
         NSString *jsonStr = [[NSString alloc]initWithData:dicData encoding:NSUTF8StringEncoding];
         NSString *realJsonStr = [OneViewEngine toGetRealDataForStringWithStr:jsonStr];
         realJsonStr = [realJsonStr stringByAppendingString:@"\"evering\":\"evering\"}"];
-        NSLog(@"realJsonStr==%@",realJsonStr);
+        
         OneViewBody *oneBody = [[OneViewBody alloc]init];
         NSData *jsonData = [realJsonStr dataUsingEncoding:NSUTF8StringEncoding];
         NSError *err;
         NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:jsonData                                                         options:NSJSONReadingMutableContainers                                                              error:&err];
-        NSLog(@"dic==%@",jsonDic);
         [oneBody setValuesForKeysWithDictionary:jsonDic];
         complentBlock(oneBody);
+        
     } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
         NSLog(@"error==%@",error);
     }];
+    
+//    NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+//    [center addObserver:self selector:@selector(refreshMoeth) name:@"下拉刷新" object:nil];
 }
 #pragma mark --将获取到的字符串中的一些字符替换--
 + (NSString *)toGetRealDataForStringWithStr:(NSString *)string

@@ -10,14 +10,12 @@
 #import "OneViewEngine.h"
 #import "OneTableViewCell.h"
 #import "SJAvatarBrowser.h"
+#import "BGHeaderRefreshView.h"
+
 
 @interface OneViewController ()<UITableViewDataSource,UITableViewDelegate>
-{
-    OneViewBody *_viewBody;
-    UITableView *_oneTable;
-    CGFloat cellHight;//单元格的动态高度
-    UIImageView *_cellImg;
-}
+@property (weak, nonatomic) BGHeaderRefreshView* Header;//头部下拉刷新控件
+
 @end
 
 @implementation OneViewController
@@ -28,14 +26,38 @@
     self.automaticallyAdjustsScrollViewInsets = NO;//不要tableView下移一块
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:106/255.0 green:202/255.0 blue:246/255.0 alpha:1];//导航栏为主题色
     self.navigationController.navigationBar.titleTextAttributes = @{UITextAttributeTextColor: [UIColor whiteColor],                                                                    UITextAttributeFont : [UIFont fontWithName:@"FZHuaLi-M14" size:25]};//导航栏字体颜色样式
-    
-    [OneViewEngine getOneViewNoteWithComplentBlock:^(OneViewBody *noteBody)
+        [OneViewEngine getOneViewNoteWithComplentBlock:^(OneViewBody *noteBody)
      {
          _viewBody = noteBody;
          [_oneTable reloadData];
          NSLog(@"请求成功！");
      }];
     [self creatSrcollView];
+    
+    if (_Header == nil) {
+        BGHeaderRefreshView* header = [[BGHeaderRefreshView alloc] init];
+        _Header = header;
+        header.style = clrcleAround;
+        header.hideIcon = YES;//设置下拉的时候隐藏刷新图片与否
+        header.block = ^{
+            NSLog(@"刷新完毕.....header");
+//            NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+//            [center postNotificationName:@"下拉刷新" object:nil];
+            [OneViewEngine getOneViewNoteWithComplentBlock:^(OneViewBody *noteBody)
+             {
+                 _viewBody = noteBody;
+                 [_oneTable reloadData];
+                 NSLog(@"请求成功！");
+             }];
+        };
+        header.scrollview = _oneTable;//将tableview绑定过去
+    }
+
+}
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+#warning mark --> 退出的时候释放掉
+    [self.Header free];
 }
 #pragma mark --创建横向滑动的视图--
 - (void)creatSrcollView
