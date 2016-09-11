@@ -34,7 +34,7 @@
         [self.contentView addSubview:oneImg];
         
         //手记的期数
-        UILabel *dateNum = [[UILabel alloc]initWithFrame:CGRectMake(5, 5+oneImg.frame.size.height+5, self.contentView.frame.size.width/3, 15)];
+        UILabel *dateNum = [[UILabel alloc]initWithFrame:CGRectMake(5, 5+oneImg.frame.size.height+5, self.contentView.frame.size.width*3/10, 15)];
         dateNum.textAlignment = NSTextAlignmentLeft;
         dateNum.textColor = [UIColor darkGrayColor];
         dateNum.font = [UIFont fontWithName:@"Heiti SC" size:15];
@@ -52,11 +52,11 @@
         [self.contentView addSubview:dateNum];
         
         //手记的图片来源
-        UILabel *imgSource = [[UILabel alloc]initWithFrame:CGRectMake(self.contentView.frame.size.width/10+5, 5+oneImg.frame.size.height+5, self.contentView.frame.size.width*9/10, 15)];
+        UILabel *imgSource = [[UILabel alloc]initWithFrame:CGRectMake(0, 5+oneImg.frame.size.height+5, self.contentView.frame.size.width, 15)];
         NSLog(@"屏幕的2/3是：%f",self.contentView.frame.size.width*2/3);
-        imgSource.textAlignment = NSTextAlignmentCenter;
+        imgSource.textAlignment = NSTextAlignmentLeft;
         imgSource.textColor = [UIColor darkGrayColor];
-        imgSource.font = [UIFont fontWithName:@"Heiti SC" size:13];
+        imgSource.font = [UIFont fontWithName:@"Heiti SC" size:12];
         imgSource.numberOfLines = 0;
         self._imgSource = imgSource;
         [self.contentView addSubview:imgSource];

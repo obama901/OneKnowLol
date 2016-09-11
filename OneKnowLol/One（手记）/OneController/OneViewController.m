@@ -41,12 +41,11 @@
         header.hideIcon = YES;//设置下拉的时候隐藏刷新图片与否
         header.block = ^{
             NSLog(@"刷新完毕.....header");
-//            NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
-//            [center postNotificationName:@"下拉刷新" object:nil];
             [OneViewEngine getOneViewNoteWithComplentBlock:^(OneViewBody *noteBody)
              {
                  _viewBody = noteBody;
                  [_oneTable reloadData];
+                 
                  NSLog(@"请求成功！");
              }];
         };
